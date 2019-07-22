@@ -1,15 +1,17 @@
 # ameba-docs
 
-TODO: Write a description here
+An example of Ameba extension.
 
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
 
    ```yaml
-   dependencies:
+   development_dependencies:
+     ameba:
+       github: crystal-ameba/ameba
      ameba-docs:
-       github: your-github-user/ameba-docs
+       github: crystal-ameba/ameba-docs-rule-example
    ```
 
 2. Run `shards install`
@@ -17,18 +19,13 @@ TODO: Write a description here
 ## Usage
 
 ```crystal
+# bin/ameba.cr
 require "ameba-docs"
 ```
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
-
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/ameba-docs/fork>)
+1. Fork it (<https://github.com/crystal-ameba/ameba-docs-rule-example/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -36,4 +33,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [Vitalii Elenhaupt](https://github.com/your-github-user) - creator and maintainer
+- [Vitalii Elenhaupt](https://github.com/veelenga) - creator and maintainer
